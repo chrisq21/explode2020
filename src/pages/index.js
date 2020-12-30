@@ -7,13 +7,20 @@ const PageWrapper = styled.div`
   height: 100vh;
   border: 1px solid red;
 `
+
+const SketchWrapper = styled.iframe`
+  width: 100%;
+  height: 100%;
+`
 // markup
 const IndexPage = () => {
   return (
     <main>
       <title>Explode 2020 🎉🎉🎉</title>
      <PageWrapper>
-       <p>Description</p>
+       {/* <p>Description</p> */}
+       {/* Embed p5 sketch */}
+       <SketchWrapper src="https://editor.p5js.org/chrisq21/embed/oey6ATnZh"></SketchWrapper>
      </PageWrapper>
     </main>
   )
