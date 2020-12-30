@@ -5,7 +5,6 @@ import '../global.css'
 const PageWrapper = styled.div`
   width: 100vw;
   height: 100vh;
-  border: 1px solid red;
 `
 
 const SketchWrapper = styled.iframe`
