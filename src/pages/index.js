@@ -29,11 +29,8 @@ const DescriptionWrapper = styled.div`
     margin-bottom: 0.5rem;
     text-align: center;
   }
-
-  
 `
 
-// markup
 const IndexPage = () => {
   return (
     <main>
@@ -42,8 +39,6 @@ const IndexPage = () => {
       </Helmet>
       <title>Explode 2020 🎉🎉🎉</title>
      <PageWrapper>
-       {/* <p>Description</p> */}
-       {/* Embed p5 sketch */}
        <SketchWrapper src="https://editor.p5js.org/chrisq21/embed/oey6ATnZh"></SketchWrapper>
        <DescriptionWrapper>
         <p>You did it. You really did it. You made it through the strangest year imaginable. Now give yourself a pat on the back, and explode 2020! </p>
