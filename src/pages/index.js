@@ -41,10 +41,8 @@ const IndexPage = () => {
      <PageWrapper>
        <SketchWrapper src="https://editor.p5js.org/chrisq21/embed/oey6ATnZh"></SketchWrapper>
        <DescriptionWrapper>
-        <p>You did it. You really did it. You made it through the strangest year imaginable. Now give yourself a pat on the back, and explode 2020! </p>
+        <p>You did it. You really did it. You made it through the strangest year imaginable. Now give yourself a pat on the back, and explode 2020. </p>
         <p>click or drag to create mini explosions 💥</p>
-        <p>press space to blow it all up 💥</p>
-        <p>Good luck in 2021! 🎉</p>
        </DescriptionWrapper>
      </PageWrapper>
     </main>
